@@ -3,7 +3,7 @@ type: docker
 name: drone
 steps:
     - name: run the code
-      image: openjdk:12
+      image: openjdk:latest
       command: 
         - javac demo.java
         - java demo
