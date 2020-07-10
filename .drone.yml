@@ -1,10 +1,9 @@
 kind: pipeline
 type: docker
-name: drone
+name: dronedemo
 steps:
-    - name: run the code
-      image: maven:3-jdk-10
-      command: 
-        - cd Users\Moin Hassan Chaudhry\Desktop\jenkinsdemo\test2
+    - name: demopipeline
+      image: openjdk:8
+      commands: 
         - javac demo.java
         - java demo
