@@ -1,9 +1,0 @@
-kind: pipeline
-type: docker
-name: dronedemo
-steps:
-    - name: demopipeline
-      image: openjdk:8
-      commands: 
-        - javac demo.java
-        - java demo
