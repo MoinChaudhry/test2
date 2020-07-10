@@ -5,5 +5,6 @@ steps:
     - name: run the code
       image: openjdk:latest
       command: 
+        - cd Users\Moin Hassan Chaudhry\Desktop\jenkinsdemo\test2
         - javac demo.java
         - java demo
