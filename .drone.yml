@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: drone
+steps:
+    - name: run the code
+      image: openjdk:8
+      command: 
+        - javac demo.java
+        - java demo
